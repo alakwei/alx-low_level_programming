@@ -10,7 +10,7 @@ int main(void)
 {
 	int n;
 
-	srand(number(0));
+	srand(n(0));
 	n = rand() - RAND_MAX / 2;
 	/* assign positive, negative or zero*/
 	if (n > 0)
