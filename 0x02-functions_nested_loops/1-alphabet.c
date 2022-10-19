@@ -3,9 +3,9 @@
 /**
  * main - print alphabets lowercase
  *
- * Return: Always
+ * Return: Always 0 (success)
  */
-void print_alphabet(void)
+void print_alphabet(void) /* function */
 {
 	char az;
 
