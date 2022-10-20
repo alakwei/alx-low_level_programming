@@ -3,6 +3,7 @@
 /**
  * times_table - print nine times table
  */
+
 void times_table(void)
 {
 	int number, multiple, product;
