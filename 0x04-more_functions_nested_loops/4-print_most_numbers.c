@@ -1,7 +1,8 @@
 #include "main.h"
 
 /**
- * print_most_numbers - print numbers from 0 to 9 without 2 and 4
+ * print_most_numbers - print numbers from 0 to 9
+ * without 2 and 4
  * Return: Always 0 (Success)
  */
 
@@ -9,12 +10,12 @@ void print_most_numbers(void)
 {
 	int n = 0;
 
-	while (a < 10)
+	while (n < 10)
 	{
-		if (a != 2 && a != 4)
-			_putchar(a = '0');
+		if (n != 2 && n != 4)
+			_putchar(n = '0');
 
-		a++;
+		n++;
 	}
 	_putchar('\n');
 }
