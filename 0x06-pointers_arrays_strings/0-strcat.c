@@ -7,7 +7,7 @@
  * Return: a poniter
  */
 
-har *_strcat(char *dest, char *src)
+char *_strcat(char *dest, char *src)
 {
 	int c;
 	int d;
